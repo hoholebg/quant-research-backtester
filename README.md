@@ -1,38 +1,15 @@
-# 🚀 Algorithmic Trading Platform
+# 📈 Quant Research & Yield Curve Systematic Backtester
 
-[![CI/CD](badge)](link) [![Coverage](badge)](link) [![Python](badge)](link)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**Production-ready algorithmic trading system with ML integration**
+High-performance quantitative trading engine and backtesting framework built with **Python**, vectorized operations, and **Numba JIT compilation** for cross-asset strategy execution.
 
-## 🎯 Features
-- Multiple strategy implementations (momentum, mean reversion, ML-based)
-- Professional backtesting engine with walk-forward analysis
-- Real-time execution with broker integration
-- Advanced risk management and portfolio optimization
-- Comprehensive monitoring and alerting
+## ⚡ Highlights
+- **Yield Curve Dynamics & Arbitrage**: Backtested long/short strategies across yield curve spreads, foreign exchange (FX), and fixed-income assets.
+- **High-Speed Monte Carlo Engine**: Ultra-fast option and path simulations powered by Numba JIT.
+- **ML Factor Models**: Integrated sentiment and factor signals (Random Forest, XGBoost) to drive directional positions.
 
-## 📊 Performance Metrics
-[Tableau de résultats de backtests]
-
-## 🛠️ Tech Stack
-- Python 3.11+
-- pandas, numpy, scikit-learn, pytorch
-- FastAPI (API REST)
-- TimescaleDB / PostgreSQL
-- Redis (caching)
-- Docker & Kubernetes ready
-
-## 🚀 Quick Start
-[Instructions claires et testées]
-
-## 📈 Example Usage
-[Code snippets concrets]
-
-## 🏗️ Architecture
-[Schéma de l'architecture]
-
-## 📚 Documentation
-[Lien vers docs complètes]
-[tool.pytest.ini_options]
-testpaths = ["tests"]
-python_files = "test_*.py"
+## 📊 Performance & Features
+- Vectorized backtesting loop with transaction costs & slippage modeling.
+- Risk management toolkit (Value-at-Risk, Expected Shortfall, Sharpe/Sortino ratios).
